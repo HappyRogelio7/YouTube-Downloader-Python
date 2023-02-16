@@ -1,0 +1,70 @@
+config-version: 1.0.0
+
+settings:
+  debug: false
+  url: "https://www.youtube.com/watch?v="
+
+validators:
+  https: "https://"
+  # http: "http://" # Not recommended
+  youtube: "www.youtube.com/watch?v="
+  youtu: "youtu.be/"
+
+
+messages:
+  languages:
+    en:
+      entry-link: "Enter the link: "
+      error-link: "The link is not valid, please try again"
+      select-video-or-audio: "Select video or audio: "
+      title: "The title: "
+      change-title: "You can change the title: "
+      entry-title: "Enter the new title: "
+      title-changed: "New title: "
+      title-not-changed: "Title not changed"
+      download-video-audio: "Download video or audio: "
+      available-qualities: "Available qualities: "
+      change-quality: "You can change the quality? "
+      entry-quality: "Enter the new quality: "
+      actual-save-directory: "Actual save directory: "
+      change-save-directory: "You can change the save directory? "
+      entry-save-directory: "Enter the new save directory: "
+      save-directory-changed: "New save directory: "
+      downloading-video: "Downloading video..."
+      downloaded-video: "Video downloaded successfully, saved in: "
+      downloaded-video_time: "Video downloaded successfully, saved in: {0} in {1} seconds"
+      downloaded-video_quality: "Video downloaded successfully, saved in: {0} in {1} seconds with quality {2}"
+      downloading-audio: "Downloading audio..."
+      downloaded-audio: "Audio downloaded successfully, saved in: "
+      downloaded-audio_time: "Audio downloaded successfully, saved in: {0} in {1} seconds"
+      download-another: "Download another video or audio? "
+      thanks: "Thanks for using this program! | Goodbye! "
+      error: "An error occurred, please try again later."
+
+    es:
+      entry-link: "Introduce el enlace: "
+      error-link: "El enlace no es válido, por favor inténtalo de nuevo"
+      select-video-or-audio: "Selecciona video o audio: "
+      title: "El título: "
+      change-title: "¿Quieres cambiar el título? "
+      entry-title: "Introduce el nuevo título: "
+      title-changed: "Nuevo título: "
+      title-not-changed: "Título no cambiado"
+      download-video-audio: "Descargar video o audio: "
+      available-qualities: "Calidades disponibles: "
+      change-quality: "¿Quieres cambiar la calidad? "
+      entry-quality: "Introduce la nueva calidad: "
+      actual-save-directory: "Directorio de guardado actual: "
+      change-save-directory: "¿Quieres cambiar el directorio de guardado? "
+      entry-save-directory: "Introduce el nuevo directorio de guardado: "
+      save-directory-changed: "Nuevo directorio de guardado: "
+      downloading-video: "Descargando video..."
+      downloaded-video: "Video descargado con éxito, guardado en: "
+      downloaded-video_time: "Video descargado con éxito, guardado en: {0} en {1} segundos"
+      downloaded-video_quality: "Video descargado con éxito, guardado en: {0} en {1} segundos con calidad {2}"
+      downloading-audio: "Descargando audio..."
+      downloaded-audio: "Audio descargado con éxito, guardado en: "
+      downloaded-audio_time: "Audio descargado con éxito, guardado en: {0} en {1} segundos"
+      download-another: "¿Descargar otro video o audio? "
+      thanks: "¡Gracias por usar este programa! | ¡Adiós! "
+      error: "Ha ocurrido un error, por favor inténtalo de nuevo más tarde."
