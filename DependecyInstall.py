@@ -9,7 +9,7 @@ def install_requirements():
     else:
         print("Error: requirements.txt not found or no permissions to read it or no exist.")
         print("Please download the requirements.txt file and put it in the same directory as the program.")
-        print("Github Download file: https://github.com/HappyRogelio7/YouTube-Downloader-PythonV1/blob/master/requirements.txt")
+        print("Github Download file: https://github.com/Happyuky7/YouTube-Downloader-PythonV1/blob/master/requirements.txt")
         print("If it doesn't work, download the requirements.txt file again install the requirements manually.")
         exit()
 
@@ -36,7 +36,7 @@ if __name__ == "__main__":
         exit()
     else:
         print("Error: YouTubeDownloaderPY.py not found or no permissions to read it or no exist.")
-        print("Github Download file: https://github.com/HappyRogelio7/YouTube-Downloader-PythonV1/")
+        print("Github Download file: https://github.com/Happyuky7/YouTube-Downloader-PythonV1/")
         exit()
 
 
